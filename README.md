@@ -45,7 +45,7 @@ npm i
 ## Serve
 
 ```sh
-npx parcel src/index.bs.js
+npx parcel src/index.html
 ```
 
 ## Bundle it up
