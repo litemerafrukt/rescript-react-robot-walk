@@ -20,6 +20,7 @@
     "rescript": "*"
   },
   "devDependencies": {
+    "@glennsl/bs-jest": "^0.7.0",
     "parcel-bundler": "^1.12.5"
   }
 }

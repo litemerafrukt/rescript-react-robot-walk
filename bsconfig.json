@@ -1,10 +1,17 @@
 {
   "name": "robot",
   "version": "0.0.1",
-  "sources": {
-    "dir": "src",
-    "subdirs": true
-  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "__tests__",
+      "type": "dev",
+      "subdirs": true
+    }
+  ],
   "package-specs": {
     "module": "commonjs",
     "in-source": true
@@ -12,6 +19,7 @@
   "suffix": ".bs.js",
   "reason": { "react-jsx": 3 },
   "bs-dependencies": ["@rescript/react"],
+  "bs-dev-dependencies": ["@glennsl/bs-jest"],
   "warnings": {
     "error": "+101"
   }
